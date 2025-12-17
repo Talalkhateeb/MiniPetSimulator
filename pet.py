@@ -7,3 +7,8 @@ class pet:
         return self.energy_level
 
  
+ 
+    def play_with_pet(self):
+        self.energy_level -= 1
+        print("Pet played!")
+        
